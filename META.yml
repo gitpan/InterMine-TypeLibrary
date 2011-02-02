@@ -15,9 +15,9 @@ name: InterMine-TypeLibrary
 provides:
   InterMine::TypeLibrary:
     file: lib/InterMine/TypeLibrary.pm
-    version: 0.9401
+    version: 0.95
 requires:
   MooseX::Types: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.9401
+version: 0.95
