@@ -1,7 +1,7 @@
 package InterMine::TypeLibrary;
 {
 
-    our $VERSION = '0.9600';
+    our $VERSION = '0.9601';
 
 =head1 NAME
 
@@ -82,7 +82,7 @@ under the same terms as Perl itself.
 
     # Import built-in Moose types
     use MooseX::Types::Moose qw/Str ArrayRef HashRef Undef Maybe Int Value Object/;
-    use Math::BigInt try => 'GMP';
+    use Math::BigInt;
     use Scalar::Util qw(blessed);
 
     my %fake_to_real_ops = (

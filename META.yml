@@ -15,11 +15,11 @@ name: InterMine-TypeLibrary
 provides:
   InterMine::TypeLibrary:
     file: lib/InterMine/TypeLibrary.pm
-    version: 0.9600
+    version: 0.9601
 requires:
   Math::BigInt: 0
   MooseX::Types: 0
   Scalar::Util: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.9600
+version: 0.9601
